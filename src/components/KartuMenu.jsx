@@ -13,5 +13,6 @@ function KartuMenu({
     </div>
   )
 }
+// export default KartuMenu;
 
 export default KartuMenu;
