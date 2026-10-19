@@ -3,7 +3,7 @@ import LabelHarga from "./LabelHarga";
 function KartuMenu({ 
     nama, 
     harga, 
-    kategori 
+    kategori="Makanan"
 }) {
   return (
     <div className="KartuMenu">
@@ -11,6 +11,7 @@ function KartuMenu({
         <p>{kategori}</p>
         <LabelHarga nilai={harga} />
     </div>
-
   )
 }
+
+export default KartuMenu;

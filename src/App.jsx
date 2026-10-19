@@ -1,13 +1,10 @@
-import { useState } from "react";
-import './App.css';
 import Panel from "./components/Panel";
+import KartuMenu from "./components/KartuMenu";
 
 const Nama = 'Kantin Luthfi'
-//const jam = new Date().getHours();
 const N = 37
 const gayajudul = {
   color: "#1fa35f",
-  textAlign: "center",
   fontSize: "28px"
 }
 
